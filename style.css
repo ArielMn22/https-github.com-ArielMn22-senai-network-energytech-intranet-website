@@ -1,0 +1,119 @@
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Consolas;
+
+}
+
+.landing-banner {
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("_assets/_images/nasa-Q1p7bh3SHj8-unsplash\ \(1\).jpg");
+    background-size: cover;
+
+}
+
+.black-mask {
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.content-container {
+
+    padding: 100px;
+
+}
+
+.content-container .title {
+
+    margin-bottom: 100px;
+    color: white;
+
+}
+
+.content-container .text {
+
+    color: white;
+
+}
+
+.content-container h1 {
+
+    font-size: 5em;
+    color: white;
+
+}
+
+.content-container p {
+
+    font-size: 2em;
+    color: white;
+
+}
+
+nav.menu {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50px;
+    background-color: black;
+
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+nav.menu .logo {
+
+    display: flex;
+    flex: 1;
+    
+}
+
+nav.menu .anchors {
+
+    display: flex;
+    justify-content: flex-end;
+    flex: 10;
+
+}
+
+nav.menu .anchors a {
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+footer {
+
+    padding-left: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+}
+
+footer a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+
+    text-decoration: underline;
+
+}
